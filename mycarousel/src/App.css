@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+}
+.image_container {
+  display: flex;
+  position: relative;
+}
+
+/*-------------------- IMAGE -------------*/
+
+img {
+  object-fit: cover;
+  width: 500px;
+  height: 400px;
+  background-color: red;
+}
+
+.left_btn,
+.right_btn {
+  position: absolute;
+  background-color: grey;
+  opacity: 0.3;
+  color: white;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left_btn {
+  right: 0;
+  padding: 5px;
+}
+.right_btn {
+  left: 0;
+  padding: 5px;
+}
