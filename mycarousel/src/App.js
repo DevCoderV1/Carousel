@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   const [curTranslate, setTranslate] = useState(0);
-  console.log(curTranslate);
+
   return (
     <div className="App">
       <div className="carousel">
